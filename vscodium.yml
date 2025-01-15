@@ -1,0 +1,77 @@
+---
+extensions:
+  # API Tools Extension Pack
+  api-tools:
+    extensions:
+      - 42Crunch/vscode-openapi
+      - Arjun/swagger-viewer
+      - humao/rest-client
+
+    dependencies:
+      - itmcdev/generic-extension-pack
+    name: API Tools Extension Pack
+    description: |
+      A collection of extensions for testing and designing APIs
+  # Bash Extension Pack
+  bash:
+    extensions:
+      - foxundermoon/shell-format
+      - jetmartin/bats
+      - mads-hartmann/bash-ide-vscode
+      - rogalmic/bash-debug
+
+
+
+
+      - bmalehorn/vscode-fish
+
+
+    dependencies:
+      - itmcdev.generic-extension-pack
+    name: Bash/Zsh Extension Pack
+    description: |
+      A collection of extensions for Bash/Zsh/Sh development
+  # C/C++ Extension Pack
+  cpp:
+    extensions:
+
+      - llvm-vs-code-extensions/vscode-clangd
+
+      - danielpinto8zz6.c-cpp-project-generator
+      - jeff-hykin.better-cpp-syntax
+      # - vadimcn.vscode-lldb # shoudl be replaced by webfreak.debug
+      - webfreak/debug
+
+
+
+      - ms-vscode/cmake-tools
+      - tboox/xmake-vscode
+      - twxs/cmake
+    dependencies:
+      - itmcdev/generic-extension-pack
+    name: C/C++ Extension Pack
+    description: |
+      A collection of extensions for C/C++ development
+  # ColdFusion Extension Pack
+  cfml:
+    extensions:
+      - CFMLEditor/cfmleditor
+      - CFMLEditor/cfmleditor-lint
+      - KamasamaK/vscode-cflint
+      - KamasamaK/vscode-cfml
+    dependencies:
+      - itmcdev/generic-extension-pack
+    name: ColdFusion Extension Pack
+    description: |
+      A collection of extensions for ColdFusion development
+  # Powershell Extension Pack
+  pwsh:
+    extensions:
+      - ms-vscode.PowerShell
+
+
+    dependencies:
+      - itmcdev.generic-extension-pack
+    name: Powershell Extension Pack
+    description: |
+      A collection of extensions for Batch/Powershell development
